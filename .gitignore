@@ -1,0 +1,9 @@
+*.html
+WEB-INF/classes/*
+**/*.class
+**/*.jar
+*~
+.project
+.classpath
+*.war
+.settings

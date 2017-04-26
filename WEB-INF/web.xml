@@ -1,0 +1,27 @@
+<!DOCTYPE web-app 
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" 
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+    <display-name>Doan Landscaping</display-name>
+    <description>
+        Doan Landscaping
+    </description>
+    
+    <servlet>  
+    <servlet-name>StringTemplateServlet</servlet-name>  
+    <servlet-class>com.tomcat.hosting.servlet.StringTemplateServlet</servlet-class>  
+  </servlet>  
+
+  <servlet-mapping>  
+    <servlet-name>StringTemplateServlet</servlet-name>  
+    <url-pattern>*.html</url-pattern>
+  </servlet-mapping> 
+	
+  <welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+	
+</web-app>
